@@ -21,17 +21,7 @@ Este projeto é um assistente inteligente para gamers, que responde perguntas so
 - **JavaScript**
 - [Showdown.js](https://github.com/showdownjs/showdown) (Markdown para HTML)
 - [Google Gemini API](https://ai.google.dev/)
-
-## ⚙️ Como usar
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/NLW20-Assistente-Meta.git
-   ```
-2. Instale as dependências (se necessário).
-3. Obtenha uma API KEY do [Google Gemini](https://ai.google.dev/).
-4. Abra o arquivo `index.html` em seu navegador.
-5. Informe sua API KEY, selecione o jogo e faça sua pergunta!
+  
 
 ## 💡 Observações
 
