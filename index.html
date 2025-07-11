@@ -25,29 +25,34 @@
         <h2 class="title">Assistente de Meta</h2>
         <p>Pergunte sobre estratégias, builds e dicas para seus jogos!</p>
 
-        <form action="">
-          <input type="password" placeholder="Informe a API KEY do Gemini" required>
+        <form id="form" action="">
+          <input id="apiKey" type="password" placeholder="Informe a API KEY do Gemini" required>
 
-          <select name="" id="">
+          <select name="" id="gameSelect"> 
             <option value="">Selecione um jogo</option>
             <option value="valorant">Valorant</option>
             <option value="lol">League of Legends</option>
+            <option value="elden">Elden ring</option>
+            <option value="cs">CS:GO2</option>
           </select>
 
-          <input type="text" placeholder="Ex: Melhor build para ADC..." required>
+          <input id="questionInput" type="text" placeholder="Ex: Melhor build para ADC..." required>
 
-          <button type="submit">Perguntar</button>
+          <button id="askButton" type="submit">Perguntar</button>
         </form>
 
-        <div id="aiResponse">
+        <div id="aiResponse" class="hidden">
           <div class="response-content">
 
           </div>
         </div>
       </div>
     </section>
-  </main>
+  </main> 
 
+
+  <script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
+  <script src="./script.js"></script>
 </body>
 
 </html>
